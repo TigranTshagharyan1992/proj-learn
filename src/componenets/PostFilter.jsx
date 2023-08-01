@@ -9,8 +9,8 @@ const PostFilter = ({filter,setFilter}) => {
             <MySelect
                 value={filter.sort} onChange={selected =>setFilter({...filter, sort:selected})}
                 options={[
-                    {value:'name', title:'name'},
-                    { value:'buttonId', title:'buttonId'}
+                    {value:'title', title:'title'},
+                    { value:'id', title:'id'}
                 ]} defaultValue='select'/>
         </div>
     );

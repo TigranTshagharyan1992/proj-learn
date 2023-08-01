@@ -1,9 +1,10 @@
-import React, {useMemo, useRef, useState} from 'react';
+import React, {useMemo, useRef, useState, useEffect} from 'react';
 import Counter from "./componenets/Counter";
 import PostList from "./componenets/PostList";
 import PostForm from "./componenets/PostForm";
 import PostFilter from "./componenets/PostFilter";
 import {useSortedAndSearch} from "./hooks/UsePosts";
+import axios from "axios";
 
 
 /**
@@ -14,9 +15,9 @@ import {useSortedAndSearch} from "./hooks/UsePosts";
 function App() {
 
     const [posts, setPosts] = useState([
-        {name: "button name 2", buttonId: "3"},
-        {name: "button name 33", buttonId: "2"},
-        {name: "button name 1", buttonId: "1"},
+        {title: "button name 2", buttonId: "3"},
+        {title: "button name 33", buttonId: "2"},
+        {title: "button name 1", buttonId: "1"},
     ]);
 
     const [filter, setFilter] = useState({sort:'',search:''});
@@ -32,6 +33,13 @@ function App() {
     };
 
 
+    async function fetchPosts() {
+        const response = await axios.get('https://jsonplaceholder.typicode.com/posts');
+        await setPosts(response.data);
+    }
+    useEffect( () =>{
+        fetchPosts();
+    },[]);
     const sortedAndSearch = useSortedAndSearch(posts,filter.sort,filter.search);
 
 
