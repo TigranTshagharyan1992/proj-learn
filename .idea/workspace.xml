@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fa722e9-9488-4d9a-85f3-6fc04d93357c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/componenets/Counter.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/componenets/MyInput.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/componenets/MySelect.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/componenets/PostFilter.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/componenets/PostForm.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/componenets/PostItem.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/componenets/PostList.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/componenets/buttons/MyButton.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/componenets/buttons/MyButton.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/componenets/inputs/MyInput.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/usePosts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/usePosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/UsePosts.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,14 +23,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/hooks/UsePosts.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="37" column="27" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="37" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#55#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="216">
+              <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -55,15 +40,6 @@
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/hooks/usePosts.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -131,6 +107,18 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -152,6 +140,7 @@
       <find>event-business</find>
       <find>search</find>
       <find>searchPost</find>
+      <find>sortedPosts</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\Developer\Desktop\react practise\proj-learn</dir>
@@ -180,9 +169,10 @@
         <option value="$PROJECT_DIR$/src/componenets/MySelect.jsx" />
         <option value="$PROJECT_DIR$/src/componenets/MyInput.jsx" />
         <option value="$PROJECT_DIR$/src/componenets/PostList.jsx" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/componenets/PostFilter.jsx" />
         <option value="$PROJECT_DIR$/src/hooks/usePosts.jsx" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/hooks/UsePosts.jsx" />
       </list>
     </option>
   </component>
@@ -215,6 +205,12 @@
               <item name="proj-learn" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="componenets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proj-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proj-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hooks" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -270,18 +266,18 @@
       <workItem from="1690181973170" duration="622000" />
       <workItem from="1690450264330" duration="9077000" />
       <workItem from="1690530624452" duration="14033000" />
-      <workItem from="1690786070474" duration="20262000" />
+      <workItem from="1690786070474" duration="24417000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71576000" />
+    <option name="totallyTimeSpent" value="75731000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19989339" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19989339" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -364,13 +360,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/componenets/PostItem.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/componenets/PostForm.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -415,20 +404,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/componenets/PostItem.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="37" column="27" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="37" selection-end-column="27" />
+        <state relative-caret-position="308">
+          <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
           <folding>
             <element signature="e#0#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hooks/usePosts.jsx">
+    <entry file="file://$PROJECT_DIR$/src/hooks/UsePosts.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        <state relative-caret-position="216">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
         </state>
       </provider>
     </entry>

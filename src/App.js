@@ -3,6 +3,7 @@ import Counter from "./componenets/Counter";
 import PostList from "./componenets/PostList";
 import PostForm from "./componenets/PostForm";
 import PostFilter from "./componenets/PostFilter";
+import {useSortedAndSearch} from "./hooks/UsePosts";
 
 
 /**
@@ -30,16 +31,8 @@ function App() {
         }))
     };
 
-    const sortedPosts = useMemo(() =>{
-        if(filter.sort){
-            return [...posts].sort((a,b) => a[filter.sort].localeCompare(b[filter.sort]));
-        }
-        return posts;
-    },[filter.sort,posts]);
 
-    const sortedAndSearch = useMemo(() => {
-        return sortedPosts.filter(post => post.name.includes(filter.search));
-    }, [filter.search, sortedPosts]);
+    const sortedAndSearch = useSortedAndSearch(posts,filter.sort,filter.search);
 
 
     return (
